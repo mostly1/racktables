@@ -1,0 +1,171 @@
+[13-Aug-2014 19:35:55 Europe/Moscow] PHP Warning:  require_once(/home/magnetic/public_html/racktables/inc/secret.php): failed to open stream: Permission denied in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
+[13-Aug-2014 19:35:55 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/magnetic/public_html/racktables/inc/secret.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
+[13-Aug-2014 19:36:16 Europe/Moscow] PHP Warning:  require_once(/home/magnetic/public_html/racktables/inc/secret.php): failed to open stream: Permission denied in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
+[13-Aug-2014 19:36:16 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/magnetic/public_html/racktables/inc/secret.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
+[18-Aug-2014 13:18:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/magnetic/public_html/racktables/inc/slb-interface.php on line 549
+[22-Aug-2014 00:28:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[22-Aug-2014 18:18:53 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/magnetic/public_html/racktables/inc/interface.php on line 1419
+[26-Aug-2014 23:51:25 Europe/Moscow] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/magnetic/public_html/racktables/inc/interface.php on line 1416
+[26-Aug-2014 23:54:44 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/magnetic/public_html/racktables/inc/interface.php on line 1416
+[26-Aug-2014 20:04:29 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[26-Aug-2014 20:07:01 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 00:08:35 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 00:08:50 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[26-Aug-2014 20:09:19 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[26-Aug-2014 20:09:36 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 18:11:18 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';' in /home/magnetic/public_html/racktables/inc/interface.php on line 1419
+[27-Aug-2014 20:09:35 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/magnetic/public_html/racktables/inc/interface.php on line 1419
+[27-Aug-2014 16:10:02 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 16:23:03 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 16:36:03 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 16:38:22 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 16:40:48 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 16:56:17 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 16:56:37 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 19:54:02 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[27-Aug-2014 19:54:02 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[27-Aug-2014 19:54:02 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[27-Aug-2014 19:54:02 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[27-Aug-2014 19:54:02 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[27-Aug-2014 19:57:49 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/magnetic/public_html/racktables/inc/interface.php on line 1418
+[27-Aug-2014 20:08:15 UTC] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home/magnetic/public_html/racktables/inc/interface.php on line 1418
+[27-Aug-2014 20:09:35 UTC] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home/magnetic/public_html/racktables/inc/interface.php on line 1418
+[28-Aug-2014 00:18:50 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'entity_id' (T_STRING) in /home/magnetic/public_html/racktables/inc/interface.php on line 1416
+[28-Aug-2014 00:19:31 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'entity_id' (T_STRING) in /home/magnetic/public_html/racktables/inc/interface.php on line 1416
+[28-Aug-2014 00:21:47 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/magnetic/public_html/racktables/inc/interface.php on line 1416
+[28-Aug-2014 00:46:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/magnetic/public_html/racktables/inc/interface.php on line 1416
+[28-Aug-2014 00:46:30 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/magnetic/public_html/racktables/inc/interface.php on line 1416
+[28-Aug-2014 00:48:06 Europe/Moscow] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[28-Aug-2014 00:50:44 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/interface.php on line 1418
+[27-Aug-2014 20:52:03 UTC] PHP Warning:  mysql_query(): Access denied for user 'magnetic'@'localhost' (using password: NO) in /home/magnetic/public_html/racktables/inc/interface.php on line 1419
+[27-Aug-2014 20:52:03 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/magnetic/public_html/racktables/inc/interface.php on line 1419
+[27-Aug-2014 20:52:03 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[27-Aug-2014 20:58:12 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[27-Aug-2014 21:03:27 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[28-Aug-2014 01:09:34 Europe/Moscow] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[27-Aug-2014 21:09:58 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[27-Aug-2014 21:11:47 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[27-Aug-2014 21:19:08 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[27-Aug-2014 21:21:17 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[28-Aug-2014 13:58:20 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[28-Aug-2014 18:09:55 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/magnetic/public_html/racktables/inc/interface.php on line 1417
+[28-Aug-2014 14:10:18 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[28-Aug-2014 14:57:33 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[28-Aug-2014 15:01:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[28-Aug-2014 15:01:49 UTC] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
+[28-Aug-2014 15:21:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/magnetic/public_html/racktables/inc/interface.php on line 1419
+[28-Aug-2014 15:21:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/magnetic/public_html/racktables/inc/interface.php on line 1419
+[28-Aug-2014 15:30:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/magnetic/public_html/racktables/inc/addon.php on line 7
+[28-Aug-2014 15:30:44 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/magnetic/public_html/racktables/inc/addon.php on line 7
+[28-Aug-2014 16:13:09 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/magnetic/public_html/racktables/inc/addon.php on line 14
+[28-Aug-2014 16:14:43 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 18
+[28-Aug-2014 16:20:12 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 16:21:22 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 16:22:48 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 16:24:32 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 16:24:35 UTC] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 16:36:56 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/magnetic/public_html/racktables/inc/addon.php on line 20
+[28-Aug-2014 16:37:21 UTC] PHP Fatal error:  Class name must be a valid object or a string in /home/magnetic/public_html/racktables/inc/addon.php on line 19
+[28-Aug-2014 16:42:44 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 16:43:09 UTC] PHP Fatal error:  Cannot use [] for reading in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 16:46:11 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 16:49:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/magnetic/public_html/racktables/inc/addon.php on line 18
+[28-Aug-2014 17:39:33 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/magnetic/public_html/racktables/inc/addon.php on line 2
+[28-Aug-2014 17:50:25 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[28-Aug-2014 17:51:53 UTC] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/magnetic/public_html/racktables/inc/addon.php on line 5
+[28-Aug-2014 17:52:24 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[28-Aug-2014 18:02:02 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/magnetic/public_html/racktables/inc/addon.php on line 13
+[28-Aug-2014 18:02:29 UTC] PHP Parse error:  syntax error, unexpected ''SELECT uint_value from Attrib' (T_CONSTANT_ENCAPSED_STRING) in /home/magnetic/public_html/racktables/inc/addon.php on line 13
+[28-Aug-2014 18:48:53 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:03:28 UTC] PHP Warning:  PDOStatement::bindParam() expects parameter 1 to be string, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:03:28 UTC] PHP Warning:  PDOStatement::bindParam() expects parameter 1 to be string, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:03:28 UTC] PHP Warning:  PDOStatement::bindParam() expects parameter 1 to be string, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:03:28 UTC] PHP Warning:  PDOStatement::bindParam() expects parameter 1 to be string, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:03:28 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 19:03:58 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:04:18 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:04:19 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:04:20 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:04:22 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:16:22 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_connect_error' (T_STRING) in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[28-Aug-2014 19:17:30 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_connect_error' (T_STRING) in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[28-Aug-2014 19:17:33 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_connect_error' (T_STRING) in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[28-Aug-2014 19:17:53 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/addon.php on line 14
+[28-Aug-2014 19:18:48 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 19:20:48 UTC] PHP Parse error:  syntax error, unexpected 'mysql_connect_error' (T_STRING) in /home/magnetic/public_html/racktables/inc/addon.php on line 13
+[28-Aug-2014 19:21:11 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_connect_error' (T_STRING) in /home/magnetic/public_html/racktables/inc/addon.php on line 13
+[28-Aug-2014 19:27:58 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 19:27:58 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 19:27:58 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 19:27:58 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 19:44:43 UTC] PHP Parse error:  syntax error, unexpected '$obj_id' (T_VARIABLE), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[28-Aug-2014 19:58:15 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[28-Aug-2014 19:58:15 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[28-Aug-2014 19:58:15 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[28-Aug-2014 19:58:15 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[28-Aug-2014 20:00:49 UTC] PHP Parse error:  syntax error, unexpected '$object' (T_VARIABLE), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 8
+[28-Aug-2014 20:09:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[28-Aug-2014 20:09:06 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[29-Aug-2014 00:55:43 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/addon.php on line 8
+[29-Aug-2014 00:56:20 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/addon.php on line 8
+[29-Aug-2014 00:56:56 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/addon.php on line 8
+[29-Aug-2014 00:57:12 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[29-Aug-2014 01:21:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 7
+[29-Aug-2014 01:22:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 7
+[29-Aug-2014 01:24:46 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/magnetic/public_html/racktables/inc/addon.php on line 8
+[29-Aug-2014 01:29:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 7
+[29-Aug-2014 01:31:56 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 7
+[29-Aug-2014 01:33:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 7
+[29-Aug-2014 01:57:39 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[29-Aug-2014 01:57:39 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[29-Aug-2014 01:57:39 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[29-Aug-2014 01:57:39 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/magnetic/public_html/racktables/inc/database.php on line 3902
+[29-Aug-2014 02:11:08 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 14
+[29-Aug-2014 02:12:50 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 11
+[29-Aug-2014 02:25:04 UTC] PHP Fatal error:  Cannot use [] for reading in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 02:26:53 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/magnetic/public_html/racktables/inc/addon.php on line 23
+[29-Aug-2014 02:30:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 02:32:38 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 33
+[29-Aug-2014 02:32:52 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/magnetic/public_html/racktables/inc/addon.php on line 27
+[29-Aug-2014 02:34:39 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/magnetic/public_html/racktables/inc/addon.php on line 26
+[29-Aug-2014 02:39:04 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 02:43:29 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 02:51:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 02:52:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 02:53:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 02:53:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 03:06:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[29-Aug-2014 03:08:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[29-Aug-2014 03:10:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 9
+[29-Aug-2014 03:12:05 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/magnetic/public_html/racktables/inc/addon.php on line 10
+[29-Aug-2014 03:12:38 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/magnetic/public_html/racktables/inc/addon.php on line 10
+[29-Aug-2014 03:13:17 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/magnetic/public_html/racktables/inc/addon.php on line 10
+[29-Aug-2014 03:13:38 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /home/magnetic/public_html/racktables/inc/addon.php on line 10
+[29-Aug-2014 03:14:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[29-Aug-2014 03:16:15 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 13
+[29-Aug-2014 13:35:09 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/magnetic/public_html/racktables/inc/addon.php on line 10
+[29-Aug-2014 13:36:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/magnetic/public_html/racktables/inc/addon.php on line 10
+[29-Aug-2014 13:44:40 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/magnetic/public_html/racktables/inc/addon.php on line 16
+[29-Aug-2014 13:50:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 13:52:41 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 13:52:57 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 13:53:08 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 13:57:58 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 13:58:47 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, array given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 13:59:09 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 14:01:23 UTC] PHP Warning:  mysql_result() expects parameter 1 to be resource, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 14:02:49 UTC] PHP Warning:  mysql_free_result() expects exactly 1 parameter, 2 given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 14:03:03 UTC] PHP Warning:  mysql_free_result() expects parameter 1 to be resource, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 14:14:40 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/magnetic/public_html/racktables/inc/addon.php on line 29
+[29-Aug-2014 14:29:52 UTC] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/magnetic/public_html/racktables/inc/addon.php on line 12
+[29-Aug-2014 14:33:22 UTC] PHP Warning:  Illegal string offset 'uint_id' in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[29-Aug-2014 14:33:22 UTC] PHP Warning:  Illegal string offset 'uint_id' in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[29-Aug-2014 14:33:41 UTC] PHP Warning:  Illegal string offset 'uint_id' in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[29-Aug-2014 14:33:41 UTC] PHP Warning:  Illegal string offset 'uint_id' in /home/magnetic/public_html/racktables/inc/addon.php on line 15
+[29-Aug-2014 14:51:00 UTC] PHP Fatal error:  Call to undefined function sum_array() in /home/magnetic/public_html/racktables/inc/addon.php on line 14
+[29-Aug-2014 16:22:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/magnetic/public_html/racktables/inc/addon.php on line 3
+[29-Aug-2014 16:41:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 25
+[29-Aug-2014 21:08:33 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'finishPortlet' (T_STRING) in /home/magnetic/public_html/racktables/inc/interface-lib.php on line 908
+[29-Aug-2014 21:15:21 Europe/Moscow] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/interface.php on line 1445
+[29-Aug-2014 21:18:19 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'finishPortlet' (T_STRING), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/interface-lib.php on line 907
+[29-Aug-2014 18:15:45 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/addon.php on line 30
