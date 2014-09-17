@@ -16,3 +16,8 @@ Also has adjusted color scheme for racks and binary images for easier equipment 
 - Network Switch = Green 
 - Servers and nodes = Dark blue 
 - free space = gray
+
+
+secret.php has been removed. you will need to complete the standard racktables install first. 
+
+Then over write all files with this project. 
