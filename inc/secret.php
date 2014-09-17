@@ -1,8 +1,8 @@
 <?php
 # This file has been generated automatically by RackTables installer.
 $pdo_dsn = 'mysql:host=localhost;dbname=magnetic_racktables';
-$db_username = 'magnetic_rtuser';
-$db_password = '7A9PngLIFPWy';
+$db_username = '';
+$db_password = '';
 
 # Setting MySQL client buffer size may be required to make downloading work for
 # larger files, but it does not work with mysqlnd.
