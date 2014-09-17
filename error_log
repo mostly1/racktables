@@ -524,3 +524,13 @@
 [05-Sep-2014 17:47:35 UTC] PHP Fatal error:  Call to undefined function ob_close() in /home/magnetic/public_html/cdis_addons/row_totals.php on line 49
 [05-Sep-2014 23:32:42 Europe/Moscow] PHP Warning:  require_once(inc/pre-init.php): failed to open stream: No such file or directory in /home/magnetic/public_html/index.php on line 8
 [05-Sep-2014 23:32:42 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'inc/pre-init.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/magnetic/public_html/index.php on line 8
+[08-Sep-2014 14:14:15 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/magnetic/public_html/inc/slb-interface.php on line 549
+[09-Sep-2014 13:59:20 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/magnetic/public_html/cdis_addons/chassis_totals.php on line 22
+[09-Sep-2014 14:41:58 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /home/magnetic/public_html/cdis_addons/chassis_totals.php on line 22
+[09-Sep-2014 14:44:45 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/magnetic/public_html/cdis_addons/chassis_totals.php on line 11
+[09-Sep-2014 14:45:33 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/magnetic/public_html/cdis_addons/chassis_totals.php on line 11
+[09-Sep-2014 15:10:02 UTC] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/magnetic/public_html/cdis_addons/rack_totals.php on line 23
+[09-Sep-2014 16:29:29 UTC] PHP Parse error:  syntax error, unexpected '"<tr><th class=tdright width=5' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/magnetic/public_html/cdis_addons/rack_totals.php on line 45
+[09-Sep-2014 16:31:04 UTC] PHP Parse error:  syntax error, unexpected '"<tr><th class=tdright width='' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/magnetic/public_html/cdis_addons/rack_totals.php on line 45
+[09-Sep-2014 16:32:57 UTC] PHP Parse error:  syntax error, unexpected '"<tr><th width=50% class=tdrig' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/magnetic/public_html/cdis_addons/rack_totals.php on line 45
+[09-Sep-2014 16:33:11 UTC] PHP Parse error:  syntax error, unexpected '"<tr><th width=50\% class=tdri' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/magnetic/public_html/cdis_addons/rack_totals.php on line 45

@@ -707,14 +707,29 @@ div.vlan {
 	text-align: center;
 	font: bold 10px Verdana, sans-serif;
 }
-.state_F   { background-color: #8fbfbf; }
+/*original colors*/
+/*Taken = #408080*/
+/*Free rackspace = #8fbfbf*/
+.state_F   { background-color: #BDC3C6; }
 .state_A   { background-color: #bfbfbf; }
 .state_U   { background-color: #bf8f8f; }
-.state_T   { background-color: #408080; }
+.state_T   { background-color: #006594; }
 .state_Th  { background-color: #80ffff; }
 .state_Tw  { background-color: #804040; }
 .state_Thw { background-color: #ff8080; }
-
+/*Additional states to colorize switches and server chassis.*/
+/*network switch*/
+.state_nws { background-color: #7BC342; }
+/*Server chassis*/
+.state_sc  { background-color: #4AB2D6; }
+/*Server chassis highlighted*/
+.state_sch  { background-color: #80ffff; }
+/*Server Chassis Problems*/
+.state_scw {background-color: #ff8080;}
+/*Network Switch Highlighted*/
+.state_nwsh  { background-color: #80ffff; }
+/*Network switch Problems*/
+.state_nwsw {background-color: #ff8080;}
 /* highlighting for drag selection */
 .atom.ui-selecting { 
 	background-color: #E2D087 !important; 

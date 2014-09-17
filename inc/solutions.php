@@ -144,12 +144,12 @@ function createTrueColorOrThrow ($context, $width, $height)
 # SQL cache where appropriate.
 function dispatchMiniRackThumbRequest ($rack_id)
 {
-	if (NULL !== ($thumbcache = loadThumbCache ($rack_id)))
+	/*if (NULL !== ($thumbcache = loadThumbCache ($rack_id)))
 	{
 		header ('Content-type: image/png');
 		echo $thumbcache;
 		return;
-	}
+	}*/
 	ob_start();
 	printRackThumbImage ($rack_id);
 	$capture = ob_get_clean();
@@ -177,15 +177,22 @@ function printRackThumbImage ($rack_id, $scale = 1)
 	# It was measured, that caching palette in an array is faster, than
 	# calling colorFromHex() multiple times. It matters, when user's
 	# browser is trying to fetch many minirack images in parallel.
+	#Original colors
+	# Taken = #408080
+	#Free rackspace = #8fbfbf
 	$color = array
 	(
-		'F' => colorFromHex ($img, '8fbfbf'),
+		'F' => colorFromHex ($img, 'BDC3C6'),
 		'A' => colorFromHex ($img, 'bfbfbf'),
 		'U' => colorFromHex ($img, 'bf8f8f'),
-		'T' => colorFromHex ($img, '408080'),
+		'T' => colorFromHex ($img, '006594'),
 		'Th' => colorFromHex ($img, '80ffff'),
 		'Tw' => colorFromHex ($img, '804040'),
 		'Thw' => colorFromHex ($img, 'ff8080'),
+		'sc' => colorFromHex($img, '4AB2D6'),
+		'scw' => colorFromHex($img, '804040'),
+		'nws' => colorFromHex($img, '7BC342'),
+		'nwsw' => colorFromHex($img, '804040'),
 		'black' => colorFromHex ($img, '000000'),
 		'gray' => colorFromHex ($img, 'c0c0c0'),
 	);
@@ -197,7 +204,58 @@ function printRackThumbImage ($rack_id, $scale = 1)
 		for ($locidx = 0; $locidx < 3; $locidx++)
 		{
 			$colorcode = $rackData[$unit_no][$locidx]['state'];
-			if (isset ($rackData[$unit_no][$locidx]['hl']))
+			//Begin color changes.
+			$objectId = $rackData[$unit_no][$locidx]['object_id'];
+                        $query = usePreparedSelectBlade("SELECT objtype_id FROM Object where id ='$objectId'");
+                        $result = $query->fetch(PDO::FETCH_ASSOC);
+                        $type = $result['objtype_id'];
+			switch ($type){
+                                case 8:
+
+					$colorcode = 'nws';
+                                        if (isset ($rackData[$unit_no][$locidx]['hl']))
+                                		$colorcode = $colorcode . $rackData[$unit_no][$locidx]['hl'];
+                        		imagerectangle
+                        		(
+                                		$img,
+                                		$offset[$locidx],
+                                		3 + ($rackData['height'] - $unit_no) * 2,
+                                		$offset[$locidx] + $rtwidth[$locidx] - 1,
+                                		3 + ($rackData['height'] - $unit_no) * 2 + 1,
+                                		$color[$colorcode]
+                        		);
+					break;
+                                case 1502:
+					$colorcode = 'sc';
+                                        if (isset ($rackData[$unit_no][$locidx]['hl']))
+                                                $colorcode = $colorcode . $rackData[$unit_no][$locidx]['hl'];
+                                        imagerectangle
+                                        (
+                                                $img,
+                                                $offset[$locidx],
+                                                3 + ($rackData['height'] - $unit_no) * 2,
+                                                $offset[$locidx] + $rtwidth[$locidx] - 1,
+                                                3 + ($rackData['height'] - $unit_no) * 2 + 1,
+                                                $color[$colorcode]
+                                        );
+					break;
+                                default:
+                                        if (isset ($rackData[$unit_no][$locidx]['hl']))
+                                                $colorcode = $colorcode . $rackData[$unit_no][$locidx]['hl'];
+                                        imagerectangle
+                                        (
+                                                $img,
+                                                $offset[$locidx],
+                                                3 + ($rackData['height'] - $unit_no) * 2,
+                                                $offset[$locidx] + $rtwidth[$locidx] - 1,
+                                                3 + ($rackData['height'] - $unit_no) * 2 + 1,
+                                                $color[$colorcode]
+                                        );
+					break;
+
+
+                        }
+			/*if (isset ($rackData[$unit_no][$locidx]['hl']))
 				$colorcode = $colorcode . $rackData[$unit_no][$locidx]['hl'];
 			imagerectangle
 			(
@@ -207,7 +265,7 @@ function printRackThumbImage ($rack_id, $scale = 1)
 				$offset[$locidx] + $rtwidth[$locidx] - 1,
 				3 + ($rackData['height'] - $unit_no) * 2 + 1,
 				$color[$colorcode]
-			);
+			);*/
 		}
 	if ($scale > 1)
 	{

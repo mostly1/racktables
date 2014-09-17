@@ -1,7 +1,0 @@
-[13-Aug-2014 19:35:55 Europe/Moscow] PHP Warning:  require_once(/home/magnetic/public_html/racktables/inc/secret.php): failed to open stream: Permission denied in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
-[13-Aug-2014 19:35:55 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/magnetic/public_html/racktables/inc/secret.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
-[13-Aug-2014 19:36:16 Europe/Moscow] PHP Warning:  require_once(/home/magnetic/public_html/racktables/inc/secret.php): failed to open stream: Permission denied in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
-[13-Aug-2014 19:36:16 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required '/home/magnetic/public_html/racktables/inc/secret.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/magnetic/public_html/racktables/inc/pre-init.php on line 42
-[18-Aug-2014 13:18:14 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/magnetic/public_html/racktables/inc/slb-interface.php on line 549
-[22-Aug-2014 00:28:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/magnetic/public_html/racktables/inc/interface.php on line 1420
-[22-Aug-2014 18:18:53 Europe/Moscow] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/magnetic/public_html/racktables/inc/interface.php on line 1419

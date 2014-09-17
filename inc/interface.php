@@ -925,7 +925,26 @@ function renderRack ($rack_id, $hl_obj_id = 0)
 			if (isset ($rackData[$i][$locidx]['skipped']))
 				continue;
 			$state = $rackData[$i][$locidx]['state'];
-			echo "<td class='atom state_${state}";
+			//begin my additions to colorize switches and chassis
+			$objectId = $rackData[$i][$locidx]['object_id'];
+			$query = usePreparedSelectBlade("SELECT objtype_id FROM Object where id ='$objectId'");
+			$result = $query->fetch(PDO::FETCH_ASSOC);
+			$type = $result['objtype_id'];
+			switch ($type){ 
+				case 8:
+					echo "<td class='atom state_nws";
+					break;
+				case 1502:
+					echo "<td class='atom state_sc"; 
+					break;
+				default:	
+					echo "<td class='atom state_${state}";
+				  	break;
+
+
+			}
+			//echo "<td class='atom state_${state}";
+			//end changes. Un comment the line above if changes are reverted.
 			if (isset ($rackData[$i][$locidx]['hl']))
 				echo $rackData[$i][$locidx]['hl'];
 			echo "'";
