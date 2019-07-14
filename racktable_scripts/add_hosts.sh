@@ -36,8 +36,8 @@ esac
 
 unit_no=$((unit_no+1))
 #echo $object_id "-" $unit_no "-" $atom
-#echo "mysql -u root -p${mysqlpw} --skip-column-names magnetic_racktables -e 'insert into RackSpace(rack_id, unit_no, atom, state, object_id) values ('$rack_id','$unit_no','$atom','T','$object_id')'"
-mysql -u root -pr@${msqlpw} --skip-column-names magnetic_racktables -e "insert into RackSpace(rack_id, unit_no, atom, state, object_id) values ('$rack_id','$unit_no','$atom','T','$object_id')"
+#echo "mysql -u root -p${mysqlpw} --skip-column-names <db_name> -e 'insert into RackSpace(rack_id, unit_no, atom, state, object_id) values ('$rack_id','$unit_no','$atom','T','$object_id')'"
+mysql -u root -p${msqlpw} --skip-column-names <db_name> -e "insert into RackSpace(rack_id, unit_no, atom, state, object_id) values ('$rack_id','$unit_no','$atom','T','$object_id')"
 mod=$(($i%4))
 object_id=$((object_id+1))
 
