@@ -33,7 +33,7 @@ esac
 
 #configure starting vars.
 source cred_file
-mysql="mysql -u ${usr} -D magnetic_racktables -B -N"
+mysql="mysql -u ${usr} -D <db_name> -B -N"
 
 if [ -z ${if_name}  ]; then
     if_name="p3p1"
